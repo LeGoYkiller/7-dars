@@ -1,0 +1,95 @@
+* {
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/photo_2024-10-26_15-35-47.jpg);
+    background-repeat: no-repeat;
+}
+
+.row {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 51px;
+    background-color: dodgerblue;
+    animation-duration: 3s;
+    animation-name: box;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes box {
+    10% {
+        left: 0px;
+        top: 0px;
+
+    }
+
+    20% {
+        left: 225px;
+        top: 0px;
+
+
+    }
+
+    30% {
+        left: 225px;
+        top: 235px;
+
+    }
+
+    40% {
+        top: 235px;
+        left: 776px;
+
+    }
+
+    50% {
+        left: 776px;
+        top: 370px;
+
+    }
+
+    60% {
+        top: 370px;
+        left: 470px;
+    }
+
+    70% {
+        left: 470px;
+        top: 330px;
+    }
+
+    80% {
+        top: 330px;
+        left: 212px;
+    }
+
+    90% {
+        left: 212px;
+        top: 215px;
+        left: 110px;
+    }
+
+    100% {
+        top: 215px;
+        left: 1px;
+
+    }
+
+
+}
